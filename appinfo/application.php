@@ -73,6 +73,7 @@ class Application extends App {
 				new ParameterHelper (
 					$server->getActivityManager(),
 					$server->getUserManager(),
+					$server->getContactsManager(),
 					new View(''),
 					$server->getConfig(),
 					$c->query('ActivityL10N'),
